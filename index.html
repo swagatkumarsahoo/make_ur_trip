@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Makr ur Trip</title>
+</head>
+
+<body>
+
+        <!--===========Nav Bar=================-->
+        <section class="nav-bar">
+            <div class="logo">Make ur Trip</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#tours">tours</a></li>
+                <li><a href="#package">packages</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+        </section>
+        <!--===============Banner================-->
+        <section class="banner" id="home">
+            <div class="banner-text-item">
+                <div class="banner-heading">
+                    <h1>Find your Next tour!</h1>
+                </div>
+                <form class="form">
+                    <label for="destination">Where would you like to go?</label>
+                    <input type="text" id="destination" list="mylist" placeholder="Where would you like to go?">
+                    <datalist id="mylist">
+                        <option>London</option>
+                        <option>Canada</option>
+                        <option>Monaco</option>
+                        <option>France</option>
+                        <option>Japan</option>
+                        <option>Switzerland</option>
+                        <option>Seoul</option>
+                    </datalist>
+                    <label for="travel-date">Select Date</label>
+                    <input type="date" id="travel-date" class="date">
+                    <a href="#" class="book">book</a>
+                </form>
+            </div>
+        </section>
+
+        <!--=========Services===============-->
+        <section class="services" id="tours">
+            <div class="service-item">
+                <img src="https://source.unsplash.com/random/60x60/?tour-guide" alt="Tour Guide Icon">
+                <h2>8000+ Our Local Guides</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://source.unsplash.com/random/60x60/?reliability" alt="Reliability Icon">
+                <h2>100% Trusted Tour Agency</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://source.unsplash.com/random/60x60/?experience" alt="Experience Icon">
+                <h2>28+ Years of Travel Experience</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://source.unsplash.com/random/60x60/?feedback" alt="Feedback Icon">
+                <h2>98% Our Travelers are Happy</h2>
+            </div>
+        </section>
+        <!--==============Places===================-->
+        <section class="places">
+            <div class="places-text">
+                <small>FEATURED TOURS PACKAGES</small>
+                <h2>Favourite Places</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://source.unsplash.com/random/400x300/?vancouver" alt="Vancouver, Canada Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Vancouver, Canada</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://source.unsplash.com/random/400x300/?paris" alt="Paris, France Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Paris, France</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://source.unsplash.com/random/400x300/?monaco" alt="Monaco, Monaco Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Monaco, Monaco</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://source.unsplash.com/random/400x300/?switzerland" alt="Bern, Switzerland Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Bern, Switzerland</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://source.unsplash.com/random/400x300/?korea" alt="Seoul, South Korea Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Seoul, South Korea</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://source.unsplash.com/random/400x300/?japan" alt="Tokyo, Japan Tour Image">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Tokyo, japan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========About Us===============-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://source.unsplash.com/random/500x700/?outdoor" alt="About Us Image">
+            </div>
+            <div class="about-text">
+                <small>ABOUT OUR COMPANY</small>
+                <h2>We are Go Trip Ravels Support Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud</p>
+
+                <label><input type="checkbox" checked>Lorem ipsum dolor sit amet</label>
+                <label><input type="checkbox" checked>consectetur adipisicing elit</label>
+                <label><input type="checkbox" checked>Architecto atque consequuntur</label>
+                <label><input type="checkbox" checked>cupiditate doloremque ducimus</label>
+                <a href="#">ABOUT US</a>
+            </div>
+        </section>
+
+        <!--===========Blog===============-->
+        <section class="blog" id="blog">
+            <div class="blog-text">
+                <small>LATEST TRAVEL BLOGS</small>
+                <h2>Travel Stories & Tips</h2>
+            </div>
+
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://source.unsplash.com/random/400x250/?vancouver" alt="Vancouver Adventure Blog">
+                        <div class="blog-date">15 Dec 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Exploring Vancouver's Hidden Gems</h3>
+                        <p>Discover the lesser-known attractions and local favorites in Vancouver that make this Canadian city truly special...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://source.unsplash.com/random/400x250/?paris" alt="Paris Culture Blog">
+                        <div class="blog-date">10 Dec 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Art of Parisian Street Photography</h3>
+                        <p>Learn how to capture the essence of Paris through your lens. Tips and techniques from professional photographers...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://source.unsplash.com/random/400x250/?korea" alt="Seoul Food Blog">
+                        <div class="blog-date">5 Dec 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Seoul's Street Food Revolution</h3>
+                        <p>A culinary journey through Seoul's vibrant street food scene. From kimchi to korean BBQ, explore the flavors...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===========Packages===============-->
+        <section class="packages" id="package">
+            <div class="places-text">
+                <small>OUR TOUR PACKAGES</small>
+                <h2>Choose Your Perfect Adventure</h2>
+            </div>
+
+            <div class="package-cards">
+                <div class="package-card">
+                    <div class="package-img">
+                        <img src="https://source.unsplash.com/random/400x250/?vancouver" alt="Vancouver Adventure Package">
+                        <div class="package-badge">Popular</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Vancouver Wilderness Tour</h3>
+                        <p class="package-description">Explore the stunning wilderness of Vancouver with guided hikes, wildlife viewing, and local cuisine experiences.</p>
+                        <div class="package-details">
+                            <span class="duration">🕓 5 Days / 4 Nights</span>
+                            <span class="group-size">👥 Max 12 People</span>
+                        </div>
+                        <div class="package-features">
+                            <span>✓ Guided Tours</span>
+                            <span>✓ Accommodation</span>
+                            <span>✓ Meals Included</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="old-price">$2500</span>
+                            <span class="new-price">$1870</span>
+                            <span class="per-person">/ Per Person</span>
+                        </div>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-img">
+                        <img src="https://source.unsplash.com/random/400x250/?paris" alt="Paris Cultural Package">
+                        <div class="package-badge">Cultural</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Paris Cultural Immersion</h3>
+                        <p class="package-description">Discover the art, history, and romance of Paris with museum visits, Seine River cruises, and gourmet dining.</p>
+                        <div class="package-details">
+                            <span class="duration">🕓 7 Days / 6 Nights</span>
+                            <span class="group-size">👥 Max 15 People</span>
+                        </div>
+                        <div class="package-features">
+                            <span>✓ Museum Tickets</span>
+                            <span>✓ River Cruise</span>
+                            <span>✓ Local Guide</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="old-price">$3200</span>
+                            <span class="new-price">$2450</span>
+                            <span class="per-person">/ Per Person</span>
+                        </div>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-img">
+                        <img src="https://source.unsplash.com/random/400x250/?korea" alt="Seoul Experience Package">
+                        <div class="package-badge">Adventure</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Seoul Modern & Traditional</h3>
+                        <p class="package-description">Experience the perfect blend of ancient palaces and cutting-edge technology in vibrant Seoul.</p>
+                        <div class="package-details">
+                            <span class="duration">🕓 6 Days / 5 Nights</span>
+                            <span class="group-size">👥 Max 10 People</span>
+                        </div>
+                        <div class="package-features">
+                            <span>✓ Palace Tours</span>
+                            <span>✓ K-Pop Experience</span>
+                            <span>✓ Street Food Tour</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="old-price">$2800</span>
+                            <span class="new-price">$2100</span>
+                            <span class="per-person">/ Per Person</span>
+                        </div>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-img">
+                        <img src="https://source.unsplash.com/random/400x250/?switzerland" alt="Switzerland Alps Package">
+                        <div class="package-badge">Luxury</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Swiss Alps Adventure</h3>
+                        <p class="package-description">Conquer the majestic Swiss Alps with scenic train rides, mountain hikes, and luxury accommodations.</p>
+                        <div class="package-details">
+                            <span class="duration">🕓 8 Days / 7 Nights</span>
+                            <span class="group-size">👥 Max 8 People</span>
+                        </div>
+                        <div class="package-features">
+                            <span>✓ Mountain Hiking</span>
+                            <span>✓ Scenic Trains</span>
+                            <span>✓ Luxury Hotels</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="old-price">$4500</span>
+                            <span class="new-price">$3800</span>
+                            <span class="per-person">/ Per Person</span>
+                        </div>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===========Contact Form=================-->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <small>GET IN TOUCH</small>
+                    <h2>Contact Us</h2>
+                    <p>Have questions about our tours or need help planning your next adventure? We'd love to hear from you!</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>swagatkumarsahoo@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Travel Street, Adventure City, AC 12345</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--===========Footer=================-->
+        <div class="footer">
+            <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Offers & Discounts</li>
+                    <li>Get Coupon</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <h3>Support</h3>
+                <ul>
+                    <li>Frequently Asked Questions</li>
+                    <li>Report a Payment Issue</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
